@@ -1,19 +1,13 @@
 {
-  "name":  {
-    "title": "Name",
-    "type": "string"
+  "properties":{
+    "api_key":  {
+      "title": "API Key",
+      "type": "string"
+    },
+    "sender":  {
+      "title": "Sender",
+      "type": "string"
+    }
   },
-  "email":  {
-    "title": "Email",
-    "type": "string",
-    "pattern": "^\\S+@\\S+$",
-    "description": "Email will be used for evil."
-  },
-  "comment": {
-    "title": "Comment",
-    "type": "string",
-    "maxLength": 20,
-    "validationMessage": "Don't be greedy!"
- },
-  "required": ["name","email","comment"]
+  "required": ["api_key", "sender"]
 }

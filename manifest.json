@@ -1,25 +1,14 @@
 {
   "bbAppManifestVersion":"1.0",
-  "name": "Glenn Test App",
-  "unique_name": "demo",
+  "name": "Text Local SMS Sender",
+  "unique_name": "textlocal",
   "version": "0.1",
-  "description": "Glenn's test app",
+  "description": "A replacement SMS Sender that uses Text Local",
   "author": "Glenn Shoosmith",
   "licence": "GPL",
   "tags": "",
   "config": true,
-  "panels": [
-    "test_panel"
-  ],
-  "objects": [
-    "task",
-    "task_list",
-    "bb.booking"
-  ],
-  "scripts": [
+  "script_packs": [
     "test_script"
-  ],
-  "liquid": [
-    "test_liquid"
   ]
 }
